@@ -1,3 +1,25 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: "/"
+title: "Chandan Singh Rajput"
+theme: "PaperMod"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows raw HTML inside Markdown files
+
+params:
+  env: production
+  title: "Chandan Singh Rajput"
+  description: "Full Stack Developer | Cloud & Distributed Systems"
+  author: "Chandan Singh Rajput"
+  defaultTheme: "auto"
+  disableThemeToggle: false
+
+  profileMode:
+    enabled: false  # Turn profileMode OFF
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true

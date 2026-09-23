@@ -1,0 +1,18 @@
+/* Disable click-events on the full-width header wrapper */
+.header,
+.nav,
+.header .logo {
+    pointer-events: none !important;
+}
+
+/* Re-enable clicks strictly on the toggle pill and its contents */
+#theme-toggle {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
+
+/* Ensure any hidden/empty logo link cannot capture clicks */
+.header .logo a {
+    pointer-events: none !important;
+    display: none !important;
+}
