@@ -39,9 +39,6 @@ draft: false
 **Tietoevry** &middot; Full Stack Developer  
 <span style="font-size: 0.85rem; color: var(--secondary);">07/2023 – Present &middot; Skellefteå, Sweden</span>
 
-* Built a speech-to-text input tool for field care workers to record clinical notes during visits.
-* Integrated Azure OpenAI services to synthesize hospital and municipal records into structured care plans.
-* Developed activity-planning interfaces using Vue.js and TypeScript; added Playwright E2E tests.
 * Refactored C# backend services toward Clean Architecture across distributed SQL Server instances.
 * Built a real-time 5G baseband and thermal outage monitoring platform using Go, Python, and React.
 * Managed RAN deployments on Kubernetes using Helm.
