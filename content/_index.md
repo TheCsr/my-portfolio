@@ -39,6 +39,8 @@ draft: false
 **Tietoevry** &middot; Full Stack Developer  
 <span style="font-size: 0.85rem; color: var(--secondary);">07/2023 – Present &middot; Skellefteå, Sweden</span>
 
+*  Integrated Azure OpenAI LLM services to synthesize multidisciplinary hospital and municipal patient records, automating the generation of personalized service plans and actionable care orders.
+* Evaluated self-hosted KB-Whisper across private cloud infrastructure to determine optimal inference runtimes, latency, and compute sizing.
 * Refactored C# backend services toward Clean Architecture across distributed SQL Server instances.
 * Built a real-time 5G baseband and thermal outage monitoring platform using Go, Python, and React.
 * Managed RAN deployments on Kubernetes using Helm.
